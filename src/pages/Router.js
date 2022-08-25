@@ -23,6 +23,7 @@ import Report from '../pages/reports';
 import Adddetails from '../jcss/addDetails';
 import Contact from '../jcss/contact';
 import Help from '../pages/help';
+import Myprofile from '../component/myprofile'
 
 
 function Routing() {
@@ -31,6 +32,7 @@ function Routing() {
             <Routes>
             <Route path="/auth" element={<Auth/>}/>
             <Route path='/Help' element={<Help/>}/>
+            <Route path='/myprofile' element={<Myprofile/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path="/auth1" element={<SignUp/>}/>
             <Route path='/data' element={<Adddetails/>}/>

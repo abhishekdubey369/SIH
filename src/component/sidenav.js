@@ -64,7 +64,7 @@ const sidebar = [
     {
         item:"Contact",
         icon:<CIcon/>,
-        Link:"/"
+        Link:"/contact"
     },
     {
         item:"Add",
@@ -84,7 +84,7 @@ const sidebar = [
     {
         item:"MyProfile",
         icon:<PeIcon/>,
-        Link:"/"
+        Link:"/myprofile"
     },
     {
         item:"Reports",
@@ -94,10 +94,13 @@ const sidebar = [
 ];
     return(
         <div className='sidebar'>
-            <ul className='sidebarlist'>
+            <ul 
+            className='sidebarlist'>
             {sidebar.map((val,key)=>{
                 return(
-                    <li key={key} onClick={()=>{window.location.pathname = val.Link}}>
+                    <li 
+                     id={window.location.pathname == val.link?"active":""}
+                     key={key} onClick={()=>{window.location.pathname = val.Link}}>
                         {""}
                         <div>{val.icon}</div>
                         <div>{val.item}</div>

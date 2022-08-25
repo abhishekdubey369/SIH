@@ -16,4 +16,6 @@
 li{
     border: 1px solid black;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
