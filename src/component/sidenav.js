@@ -47,4 +47,12 @@ const sidebar = [
     },
 ]
 
-// export default sidebar;
+function Sidebar(){
+    return(
+        <div>
+
+        </div>
+    )
+}
+
+export default Sidebar;
