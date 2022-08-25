@@ -7,6 +7,7 @@ import axios from "axios";
 
 //pages
 import Navbar from '../component/navbar';
+import '../component/navbar.css'
 
 const Auth = () => {
   // const naviagte = useNavigate();
@@ -54,7 +55,7 @@ const Auth = () => {
   // };
 
   return (
-    <div>
+    <div className="signIn">
       <header>
         <Navbar/>
       </header>
