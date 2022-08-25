@@ -4,7 +4,6 @@ import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
 import { useStyles } from "./utils";
 import Navbar from '../component/mainnav'
 import '../jcss/Dashboard.css'
-
 import Sidebar from '../component/sidenav';
 import Dashcenter from './dashcenter';
 import { Table } from '@mui/material';
@@ -18,15 +17,11 @@ function Dashboard(){
       <header>
         <Navbar/>
       </header>
+      <Sidebar/>
       <main className='main'>
 
         <Table className='table'>
           <tbody>
-            <td>
-              <tr>
-              <Sidebar/>
-              </tr>
-            </td>
           <td>
           <tr><Marquee pauseOnHover="true" pauseOnClick="true">Dashboard</Marquee></tr>
           <tr><Dashcenter/></tr>

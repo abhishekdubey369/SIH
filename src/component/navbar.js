@@ -2,7 +2,9 @@ import "./navbar.css";
 import React from "react";
 import {Link} from 'react-router-dom';
 import SIC from '../assets/sic.png'
+import Sidebar from '../component/sidenav';
 
+import DIcon from '@mui/icons-material/DensitySmall';
 import {
   AppBar,
   // Typography,
@@ -27,7 +29,7 @@ function Navbar(){
       }}
     >
       <Toolbar>
-      <span className="navbar__logo"><img src={SIC} height='90px' width='90px'/></span>
+      <span className="navbar__logo"><DIcon onClick={()=>{}}/><img src={SIC} height='90px' width='90px'/></span>
       <ul className="ul">
 
       <li className="navbar__item">
