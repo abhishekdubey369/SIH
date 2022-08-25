@@ -100,7 +100,7 @@ const sidebar = [
                     <li key={key} onClick={()=>{window.location.pathname = val.Link}}>
                         {""}
                         <div>{val.icon}</div>
-                        <div>{val.title}</div>
+                        <div>{val.item}</div>
                     </li>
                     
                 )

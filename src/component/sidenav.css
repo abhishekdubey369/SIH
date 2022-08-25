@@ -5,3 +5,15 @@
     background-color:#2F4050;
 
 }
+
+.sidebarlist{
+    height:auto;
+    padding:0;
+    width:100%;
+    background-color:royalblue;
+}
+
+li{
+    border: 1px solid black;
+    color: white;
+}

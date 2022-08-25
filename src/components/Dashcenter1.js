@@ -10,7 +10,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import states from '../Images/states.jpg'
+// import states from '../Images/states.jpg'
+import Visual from '../assets/visualization.png';
+import Sicg from '../assets/SICG.png'
 import '../jcss/Dashboard.css'
 
 import { Link } from 'react-router-dom';
@@ -27,7 +29,7 @@ sx={{ minWidth:300, maxWidth: 400  }}>
       component="img"
       height="140"
       width="50"
-      image={states}
+      image={Visual}
       alt="green iguana" />
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
@@ -59,14 +61,14 @@ sx={{ minWidth:300, maxWidth: 400  }}>
       component="img"
       height="140"
       width="50"
-      image={states}
+      image={Sicg}
       alt="green iguana" />
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
         SIC
       </Typography>
       <Typography variant="body2" color="text.secondary">
-        SIC
+        Reports
       </Typography>
       
     </CardContent>
