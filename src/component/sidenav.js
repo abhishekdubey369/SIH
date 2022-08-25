@@ -45,12 +45,61 @@ const sidebar = [
         icon:<PeIcon/>,
         Link:"/"
     },
-]
+];
 
 function Sidebar(){
+    
+const sidebar = [
+    {
+        item:"Home",
+        icon:<HIcon/>,
+        Link:"/"
+    },
+    {
+        item:"About",
+        icon:<UIcon/>,
+        Link:"/"
+    },
+    {
+        item:"Contact",
+        icon:<CIcon/>,
+        Link:"/"
+    },
+    {
+        item:"Add",
+        icon:<PIcon/>,
+        Link:"/"
+    },
+    {
+        item:"Help",
+        icon:<AIcon/>,
+        Link:"/"
+    },
+    {
+        item:"links",
+        icon:<AdIcon/>,
+        Link:"/"
+    },
+    {
+        item:"MyProfile",
+        icon:<PeIcon/>,
+        Link:"/"
+    },
+];
     return(
         <div>
-
+            <ul>
+            {sidebar.map((val,key)=>{
+                return(
+                    <li key={key} onClick={()=>{window.location.pathname = val.Link}}>
+                        {""}
+                        <div>{val.icon}</div>
+                        <div>{val.title}</div>
+                    </li>
+                    
+                )
+            })}
+            </ul>
         </div>
     )
 }
