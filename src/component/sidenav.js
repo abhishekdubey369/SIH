@@ -93,8 +93,8 @@ const sidebar = [
     },
 ];
     return(
-        <div>
-            <ul>
+        <div className='sidebar'>
+            <ul className='sidebarlist'>
             {sidebar.map((val,key)=>{
                 return(
                     <li key={key} onClick={()=>{window.location.pathname = val.Link}}>

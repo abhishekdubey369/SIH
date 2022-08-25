@@ -10,7 +10,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import states from '../Images/states.jpg'
+import states from '../assets/state.png'
 import Img from '../assets/district.png'
 import '../jcss/Dashboard.css'
 
