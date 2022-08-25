@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
 import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
 import { useStyles } from "./utils";
@@ -17,7 +17,7 @@ function Dashboard(){
       <header>
         <Navbar/>
       </header>
-      <Sidebar/>
+        {/* <Sidebar/> */}
       <main className='main'>
 
         <Table className='table'>

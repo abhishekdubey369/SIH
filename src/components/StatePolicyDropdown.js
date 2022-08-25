@@ -69,7 +69,7 @@ function StatePolicyDropDown() {
         <div className='mt-4'>
             <select className='form-select' value={car} onChange={handleChange}>
                 <option value="SelectDreamCar"> Select </option>
-                <option value="PMYA">PMYA</option>
+                <option value="PMYA">PMAY</option>
                 <option value="PMYB">PMYB</option>
             </select>
         </div>
