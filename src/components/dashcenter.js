@@ -11,6 +11,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import states from '../Images/states.jpg'
+import Img from '../assets/district.png'
 import '../jcss/Dashboard.css'
 
 import { Link } from 'react-router-dom';
@@ -59,7 +60,7 @@ sx={{ minWidth:300, maxWidth: 400  }}>
       component="img"
       height="140"
       width="50"
-      image={states}
+      image={Img}
       alt="green iguana" />
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">

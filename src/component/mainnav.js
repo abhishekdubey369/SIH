@@ -3,6 +3,7 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import SIC from '../assets/sic.png';
 
+import DIcon from '@mui/icons-material/DensitySmall';
 
 import {
   AppBar,
@@ -25,7 +26,7 @@ function Mainnav(){
       }}
     >
       <Toolbar>
-      <span className="navbar__logo"><img src={SIC} height='90px' width='90px'/></span>
+      <span className="navbar__logo"><DIcon/><img src={SIC} height='90px' width='90px'/></span>
       <ul className="ul">
 
       <li className="navbar__item">

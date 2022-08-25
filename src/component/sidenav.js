@@ -8,6 +8,7 @@ import PIcon from '@mui/icons-material/PeopleAlt';
 import AIcon from '@mui/icons-material/Accessible';
 import AdIcon from '@mui/icons-material/AddLink';
 import PeIcon from '@mui/icons-material/PersonPin';
+import AsIcon from '@mui/icons-material/Assessment';
 
 const sidebar = [
     {
@@ -56,9 +57,9 @@ const sidebar = [
         Link:"/"
     },
     {
-        item:"About",
+        item:"visual",
         icon:<UIcon/>,
-        Link:"/"
+        Link:"/chart"
     },
     {
         item:"Contact",
@@ -68,22 +69,27 @@ const sidebar = [
     {
         item:"Add",
         icon:<PIcon/>,
-        Link:"/"
+        Link:"/data"
     },
     {
         item:"Help",
         icon:<AIcon/>,
-        Link:"/"
+        Link:"/Help"
     },
     {
         item:"links",
         icon:<AdIcon/>,
-        Link:"/"
+        Link:"/links"
     },
     {
         item:"MyProfile",
         icon:<PeIcon/>,
         Link:"/"
+    },
+    {
+        item:"Reports",
+        icon:<AsIcon/>,
+        Link:"/SIC"
     },
 ];
     return(
