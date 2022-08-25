@@ -5,7 +5,7 @@ import { useStyles } from "./utils";
 import Navbar from '../component/mainnav'
 import '../jcss/Dashboard.css'
 
-import Sidebar from '../component/sidenav';
+// import Sidebar from '../component/sidenav';
 import Dashcenter from './dashcenter';
 import { Table } from '@mui/material';
 import Dashcenter1 from './Dashcenter1';
@@ -17,9 +17,8 @@ function Dashboard(){
       <header>
         <Navbar/>
       </header>
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <main className='main'>
-        <Sidebar/>
 
         <Table className='table'>
           <tbody>

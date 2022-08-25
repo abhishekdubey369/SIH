@@ -1,12 +1,12 @@
 import React from 'react';
 import './sidenav.css';
+import {Link} from 'react-router';
 
+const sidebar = [
+    {
+        item:"Home",
+        // icon:,
+        Link:"/"
+    },]
 
-function sidenav(){
-    return(
-        <div className='sidebar'>
-            Hello
-        </div>)
-}
-
-export default sidenav;
+// export default sidebar;

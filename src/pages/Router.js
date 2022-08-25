@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Dashboard from "../components/Dashboard";
 import States from "../components/States";
 import StatePolicyDropDown from '../components/StatePolicyDropdown'
@@ -20,6 +20,9 @@ import Blog from '../components/Blog';
 import SignUp from '../jcss/signup';
 import Chart from '../pages/chart';
 import Report from '../pages/reports';
+import Adddetails from '../jcss/addDetails';
+import Contact from '../jcss/contact';
+import Help from '../pages/help';
 
 
 function Routing() {
@@ -27,12 +30,16 @@ function Routing() {
         <BrowserRouter>
             <Routes>
             <Route path="/auth" element={<Auth/>}/>
+            <Route path='/Help' element={<Help/>}/>
+            <Route path='/contact' element={<Contact/>}/>
             <Route path="/auth1" element={<SignUp/>}/>
+            <Route path='/data' element={<Adddetails/>}/>
             <Route path="/about" element={<About />} />
             <Route path="/links" element={<Links />} />
             <Route path="/Main" element={<Main/>}/>
             <Route path="/Main/Details" element={<Add/>}/>
             <Route path='/chart' element={<Chart/>}/>
+            <Route path='/Abort' element={<Error/>}/>
             <Route path='/SIC' element={<Report/>}/>
             <Route exact path="*" element={<Error/>} />
             <Route path="/" exact={true} element={<App />} />
