@@ -23,6 +23,7 @@ function Dashboard(){
         <Table className='table'>
           <tbody>
           <td>
+          <tr></tr>
           <tr><Dashcenter/></tr>
           <tr><Dashcenter1/></tr>
           </td>
