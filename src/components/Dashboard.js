@@ -7,6 +7,8 @@ import '../jcss/Dashboard.css'
 
 import Sidebar from '../component/sidenav';
 import Dashcenter from './dashcenter';
+import { Table } from '@mui/material';
+import Dashcenter1 from './Dashcenter1';
 
 function Dashboard(){
     
@@ -18,7 +20,13 @@ function Dashboard(){
       <Sidebar/>
       <main className='main'>
         <Sidebar/>
-        <Dashcenter/>
+
+        <Table className='table'>
+          <tbody>
+          <td><Dashcenter/></td>
+          <td><Dashcenter1/></td>
+          </tbody>
+        </Table>
 
       </main>
     </React.Fragment>

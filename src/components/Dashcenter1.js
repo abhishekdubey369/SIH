@@ -15,14 +15,14 @@ import '../jcss/Dashboard.css'
 
 import { Link } from 'react-router-dom';
 
-function Dashcenter(props){
+function Dashcenter1(props){
     const classes = useStyles();
     return(
         <div className="main">
             <div className={classes.cardHolder}>
 
 <Card className="Card"
-sx={{ minWidth:300, maxWidth: 400, }}>
+sx={{ minWidth:300, maxWidth: 400  }}>
     <CardMedia
       component="img"
       height="140"
@@ -31,10 +31,10 @@ sx={{ minWidth:300, maxWidth: 400, }}>
       alt="green iguana" />
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
-        States
+        VISUALIZATION
       </Typography>
       <Typography variant="body2" color="text.secondary">
-        states
+        VISUALIZATION
       </Typography>
       
     </CardContent>
@@ -44,11 +44,11 @@ sx={{ minWidth:300, maxWidth: 400, }}>
             width='200px'
             padding='10px'
             LinkComponent={Link}
-            to='/policydd'
+            to='/chart'
             variant="contained"
             sx={{ margin: 1, borderRadius: 10 }}
             color="warning"
-          >States</Button>
+          >VISUALIZATION</Button>
       </CardActions>
       </Card>
     
@@ -63,10 +63,10 @@ sx={{ minWidth:300, maxWidth: 400  }}>
       alt="green iguana" />
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
-        Districts
+        SIC
       </Typography>
       <Typography variant="body2" color="text.secondary">
-        Districts
+        SIC
       </Typography>
       
     </CardContent>
@@ -76,11 +76,11 @@ sx={{ minWidth:300, maxWidth: 400  }}>
             width='200px'
             padding='10px'
             LinkComponent={Link}
-            to='/searchDistrict'
+            to='/SIC'
             variant="contained"
             sx={{ margin: 1, borderRadius: 10 }}
             color="warning"
-          >District</Button>
+          >SIC</Button>
       </CardActions>
       </Card>
     
@@ -89,4 +89,4 @@ sx={{ minWidth:300, maxWidth: 400  }}>
 )
 }
 
-export default Dashcenter;
+export default Dashcenter1;

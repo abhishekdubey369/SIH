@@ -17,7 +17,9 @@ import Links from '../jcss/links';
 import Add from '../jcss/addDetails';
 import Auth from "../components/Auth";
 import Blog from '../components/Blog';
-import SignUp from '../jcss/signup'
+import SignUp from '../jcss/signup';
+import Chart from '../pages/chart';
+import Report from '../pages/reports';
 
 
 function Routing() {
@@ -30,6 +32,8 @@ function Routing() {
             <Route path="/links" element={<Links />} />
             <Route path="/Main" element={<Main/>}/>
             <Route path="/Main/Details" element={<Add/>}/>
+            <Route path='/chart' element={<Chart/>}/>
+            <Route path='/SIC' element={<Report/>}/>
             <Route exact path="*" element={<Error/>} />
             <Route path="/" exact={true} element={<App />} />
             <Route path="/dash" element={<Dashboard />} />
