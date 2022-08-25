@@ -9,7 +9,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import states from '../Images/states.jpg'
-
+import Navbar from '../component/mainnav'
+import '../jcss/Dashboard.css'
 
 import { Link } from 'react-router-dom';
 import { margin } from '@mui/system';
@@ -20,7 +21,11 @@ const Dashboard= (props)=> {
     const classes = useStyles();
     
    return (
-    <>
+    <React.Fragment>
+      <header>
+        <Navbar/>
+      </header>
+          <main className='main'>
     <div className={classes.cardHolder} >
 
     <Card
@@ -87,7 +92,8 @@ const Dashboard= (props)=> {
           </Card>
         
 </div>
-</>
+</main>
+    </React.Fragment>
 
 
    );

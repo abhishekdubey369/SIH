@@ -5,6 +5,7 @@ import landing from '../assets/back.mp4'
 import logo from '../assets/logo192.png'
 import Vid from '../component/vid'
 import Slider from "../component/sidebar";
+import Mission from '../assets/misshion.png'
 
 function LandPage(){
 
@@ -20,7 +21,7 @@ function LandPage(){
   }
 />
 <Slider
-  imageSrc={null}
+  imageSrc={Mission}
   title={"Mission."}
   subtitle={"Here mission part will go."}
   flipped={true}

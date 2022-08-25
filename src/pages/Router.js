@@ -17,6 +17,7 @@ import Links from '../jcss/links';
 import Add from '../jcss/addDetails';
 import Auth from "../components/Auth";
 import Blog from '../components/Blog';
+import SignUp from '../jcss/signup'
 
 
 function Routing() {
@@ -24,7 +25,7 @@ function Routing() {
         <BrowserRouter>
             <Routes>
             <Route path="/auth" element={<Auth/>}/>
-            <Route path="/auth1" element={<Auth/>}/>
+            <Route path="/auth1" element={<SignUp/>}/>
             <Route path="/about" element={<About />} />
             <Route path="/links" element={<Links />} />
             <Route path="/Main" element={<Main/>}/>

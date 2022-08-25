@@ -2,7 +2,7 @@ import './signin.css';
 import React ,{useState,useEffect} from 'react';
 import Navbar from '../component/navbar'
 
-function signup(){
+function Signup(){
 
     const [name,setName]=useState("");
     const [email,setEmail]=useState("");
@@ -19,21 +19,25 @@ function signup(){
         }
 
     return(
-        <div className='signIn'>
+        <React.Fragment>
+            <header>
             <Navbar/>
+            </header>
+            <div className='signIn'>
             <form onSubmit={onSubmit}>
 
-            <input type='text' value={name} onChange={(e)=>{setName(e.target.value)}} name="name"/><br/>
-                <input type='text' value={email} onChange={(e)=>{setEmail(e.target.value)}} name="yojna"/><br/>
-                <input type='text' value={username} onChange={(e)=>{setUsername(e.target.value)}} name="amount"/><br/>
-                <input type='text' value={password} onChange={(e)=>{setPassword(e.target.value)}} name="date"/><br/>
-                <input type='text' value={confirm} onChange={(e)=>{setConfirm(e.target.value)}} name="district"/><br/>
-                <button onClick={save} name="click">SignIn</button>
-              
-            </form>
-        </div>
+<input type='text' value={name} onChange={(e)=>{setName(e.target.value)}} name="name"/><br/>
+    <input type='text' value={email} onChange={(e)=>{setEmail(e.target.value)}} name="yojna"/><br/>
+    <input type='text' value={username} onChange={(e)=>{setUsername(e.target.value)}} name="amount"/><br/>
+    <input type='text' value={password} onChange={(e)=>{setPassword(e.target.value)}} name="date"/><br/>
+    <input type='text' value={confirm} onChange={(e)=>{setConfirm(e.target.value)}} name="district"/><br/>
+    <button onClick={save} name="click">SignIn</button>
+  
+</form>
+            </div>
+        </React.Fragment>
     );
 
 }
 
-export default signup;
+export default Signup;

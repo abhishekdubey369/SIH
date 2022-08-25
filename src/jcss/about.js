@@ -2,6 +2,7 @@ import Navbar from '../component/navbar';
 import React from 'react';
 import './about.css';
 import Slider from '../component/sidebar'
+import Img from '../assets/about.png'
 
 function about(){
 
@@ -10,7 +11,7 @@ function about(){
             <Navbar/>
             <div className="cont">
                 <Slider
-                imageSrc={null}
+                imageSrc={Img}
                 title={"About."}
                 subtitle={"Here about part will go."}
                 flipped={true} />

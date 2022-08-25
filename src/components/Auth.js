@@ -1,57 +1,65 @@
-import { Box, Button, TextField, Typography } from "@mui/material";
+// import { Box, Button, TextField, Typography } from "@mui/material";
 import React, { useState } from "react";
 import axios from "axios";
-import { useDispatch } from "react-redux";
-import { authActions } from "../store";
-import { useNavigate } from "react-router-dom";
+// import { useDispatch } from "react-redux";
+// import { authActions } from "../store";
+// import { useNavigate } from "react-router-dom";
+
+//pages
+import Navbar from '../component/navbar';
 
 const Auth = () => {
-  const naviagte = useNavigate();
-  const dispath = useDispatch();
-  const [inputs, setInputs] = useState({
-    name: "",
-    email: "",
-    password: "",
-  });
-  const [isSignup, setIsSignup] = useState(false);
-  const handleChange = (e) => {
-    setInputs((prevState) => ({
-      ...prevState,
-      [e.target.name]: e.target.value,
-    }));
-  };
-  const sendRequest = async (type = "login") => {
-    const res = await axios
-      .post(`http://localhost:8000/api/user/${type}`, {
-        name: inputs.name,
-        email: inputs.email,
-        password: inputs.password,
-      })
-      .catch((err) => console.log(err));
+  // const naviagte = useNavigate();
+  // const dispath = useDispatch();
+  // const [inputs, setInputs] = useState({
+  //   name: "",
+  //   email: "",
+  //   password: "",
+  // });
+  // const [isSignup, setIsSignup] = useState(false);
+  // const handleChange = (e) => {
+  //   setInputs((prevState) => ({
+  //     ...prevState,
+  //     [e.target.name]: e.target.value,
+  //   }));
+  // };
+  // const sendRequest = async (type = "login") => {
+  //   const res = await axios
+  //     .post(`http://localhost:8000/api/user/${type}`, {
+  //       name: inputs.name,
+  //       email: inputs.email,
+  //       password: inputs.password,
+  //     })
+  //     .catch((err) => console.log(err));
 
-    const data = await res.data;
-    console.log(data);
-    return data;
-  };
+  //   const data = await res.data;
+  //   console.log(data);
+  //   return data;
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(inputs);
-    if (isSignup) {
-      sendRequest("signup")
-        .then((data) => localStorage.setItem("userId", data.user._id))
-        .then(() => dispath(authActions.login()))
-        .then(() => naviagte("/dashboard"));
-    } else {
-      sendRequest()
-        .then((data) => localStorage.setItem("userId", data.user._id))
-        .then(() => dispath(authActions.login()))
-        .then(() => naviagte("/dashboard"));
-    }
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(inputs);
+  //   if (isSignup) {
+  //     sendRequest("signup")
+  //       .then((data) => localStorage.setItem("userId", data.user._id))
+  //       .then(() => dispath(authActions.login()))
+  //       .then(() => naviagte("/dashboard"));
+  //   } else {
+  //     sendRequest()
+  //       .then((data) => localStorage.setItem("userId", data.user._id))
+  //       .then(() => dispath(authActions.login()))
+  //       .then(() => naviagte("/dashboard"));
+  //   }
+  // };
+
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <header>
+        <Navbar/>
+      </header>
+
+      {/* <form onSubmit={handleSubmit}>
         <Box
           maxWidth={400}
           display="flex"
@@ -107,7 +115,7 @@ const Auth = () => {
             Change To {isSignup ? "Login" : "Signup"}
           </Button>
         </Box>
-      </form>
+      </form> */}Auth
     </div>
   );
 };
