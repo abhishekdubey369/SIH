@@ -10,16 +10,14 @@
 
 .table{
     margin-top: 200px;
-    margin-right: 150px;
+    margin-right: 50%;
+    margin-left: 30%;
     /* white-space: 0; */
     /* align-items: center; */
     
 }
 
-tr{
-    /* margin: 50px 50px 50px 50px; */
-    padding: 10px
-}
+
 
 .Card{
     padding: 10px;

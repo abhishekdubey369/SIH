@@ -22,8 +22,10 @@ function Dashboard(){
 
         <Table className='table'>
           <tbody>
-          <td><Dashcenter/></td>
-          <td><Dashcenter1/></td>
+          <td>
+          <tr><Dashcenter/></tr>
+          <tr><Dashcenter1/></tr>
+          </td>
           </tbody>
         </Table>
 
