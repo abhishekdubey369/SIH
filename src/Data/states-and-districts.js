@@ -1,7 +1,7 @@
  export const states=[  
       {  
-         "state":"Andhra Pradesh",
-         "districts":[  
+         state:"Andhra Pradesh",
+         districts:[  
             "Anantapur",
             "Chittoor",
             "East Godavari",
@@ -18,8 +18,8 @@
          ]
       },
       {  
-         "state":"Arunachal Pradesh",
-         "districts":[  
+         state:"Arunachal Pradesh",
+         districts:[  
             "Tawang",
             "West Kameng",
             "East Kameng",
@@ -44,8 +44,8 @@
          ]
       },
       {  
-         "state":"Assam",
-         "districts":[  
+         state:"Assam",
+         districts:[  
             "Baksa",
             "Barpeta",
             "Biswanath",
@@ -82,8 +82,8 @@
          ]
       },
       {  
-         "state":"Bihar",
-         "districts":[  
+         state:"Bihar",
+         districts:[  
             "Araria",
             "Arwal",
             "Aurangabad",
@@ -125,14 +125,14 @@
          ]
       },
       {  
-         "state":"Chandigarh (UT)",
-         "districts":[  
+         state:"Chandigarh (UT)",
+         districts:[  
             "Chandigarh"
          ]
       },
       {  
-         "state":"Chhattisgarh",
-         "districts":[  
+         state:"Chhattisgarh",
+         districts:[  
             "Balod",
             "Baloda Bazar",
             "Balrampur",
@@ -163,21 +163,21 @@
          ]
       },
       {  
-         "state":"Dadra and Nagar Haveli (UT)",
-         "districts":[  
+         state:"Dadra and Nagar Haveli (UT)",
+         districts:[  
             "Dadra & Nagar Haveli"
          ]
       },
       {  
-         "state":"Daman and Diu (UT)",
-         "districts":[  
+         state:"Daman and Diu (UT)",
+         districts:[  
             "Daman",
             "Diu"
          ]
       },
       {  
-         "state":"Delhi (NCT)",
-         "districts":[  
+         state:"Delhi (NCT)",
+         districts:[  
             "Central Delhi",
             "East Delhi",
             "New Delhi",
@@ -192,15 +192,15 @@
          ]
       },
       {  
-         "state":"Goa",
-         "districts":[  
+         state:"Goa",
+         districts:[  
             "North Goa",
             "South Goa"
          ]
       },
       {  
-         "state":"Gujarat",
-         "districts":[  
+         state:"Gujarat",
+         districts:[  
             "Ahmedabad",
             "Amreli",
             "Anand",
@@ -237,8 +237,8 @@
          ]
       },
       {  
-         "state":"Haryana",
-         "districts":[  
+         state:"Haryana",
+         districts:[  
             "Ambala",
             "Bhiwani",
             "Charkhi Dadri",
@@ -264,8 +264,8 @@
          ]
       },
       {  
-         "state":"Himachal Pradesh",
-         "districts":[  
+         state:"Himachal Pradesh",
+         districts:[  
             "Bilaspur",
             "Chamba",
             "Hamirpur",
@@ -281,8 +281,8 @@
          ]
       },
       {  
-         "state":"Jammu and Kashmir",
-         "districts":[  
+         state:"Jammu and Kashmir",
+         districts:[  
             "Anantnag",
             "Bandipore",
             "Baramulla",
@@ -308,8 +308,8 @@
          ]
       },
       {  
-         "state":"Jharkhand",
-         "districts":[  
+         state:"Jharkhand",
+         districts:[  
             "Bokaro",
             "Chatra",
             "Deoghar",
@@ -337,8 +337,8 @@
          ]
       },
       {  
-         "state":"Karnataka",
-         "districts":[  
+         state:"Karnataka",
+         districts:[  
             "Bagalkot",
             "Ballari (Bellary)",
             "Belagavi (Belgaum)",
@@ -372,8 +372,8 @@
          ]
       },
       {  
-         "state":"Kerala",
-         "districts":[  
+         state:"Kerala",
+         districts:[  
             "Alappuzha",
             "Ernakulam",
             "Idukki",
@@ -391,8 +391,8 @@
          ]
       },
       {  
-         "state":"Lakshadweep (UT)",
-         "districts":[  
+         state:"Lakshadweep (UT)",
+         districts:[  
             "Agatti",
             "Amini",
             "Androth",
@@ -406,8 +406,8 @@
          ]
       },
       {  
-         "state":"Madhya Pradesh",
-         "districts":[  
+         state:"Madhya Pradesh",
+         districts:[  
             "Agar Malwa",
             "Alirajpur",
             "Anuppur",
@@ -462,8 +462,8 @@
          ]
       },
       {  
-         "state":"Maharashtra",
-         "districts":[  
+         state:"Maharashtra",
+         districts:[  
             "Ahmednagar",
             "Akola",
             "Amravati",
@@ -503,8 +503,8 @@
          ]
       },
       {  
-         "state":"Manipur",
-         "districts":[  
+         state:"Manipur",
+         districts:[  
             "Bishnupur",
             "Chandel",
             "Churachandpur",
@@ -524,8 +524,8 @@
          ]
       },
       {  
-         "state":"Meghalaya",
-         "districts":[  
+         state:"Meghalaya",
+         districts:[  
             "East Garo Hills",
             "East Jaintia Hills",
             "East Khasi Hills",
@@ -540,8 +540,8 @@
          ]
       },
       {  
-         "state":"Mizoram",
-         "districts":[  
+         state:"Mizoram",
+         districts:[  
             "Aizawl",
             "Champhai",
             "Kolasib",
@@ -553,8 +553,8 @@
          ]
       },
       {  
-         "state":"Nagaland",
-         "districts":[  
+         state:"Nagaland",
+         districts:[  
             "Dimapur",
             "Kiphire",
             "Kohima",
@@ -569,8 +569,8 @@
          ]
       },
       {  
-         "state":"Odisha",
-         "districts":[  
+         state:"Odisha",
+         districts:[  
             "Angul",
             "Balangir",
             "Balasore",
