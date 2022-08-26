@@ -1,8 +1,9 @@
 import React from 'react'
+import Chart from '../assets/chart/index'
 
 function chart(){
   return (
-    <div>chart</div>
+    <div><Chart/></div>
   )
 }
 
