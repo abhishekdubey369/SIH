@@ -23,7 +23,7 @@ function Dashboard(){
         <Table className='table'>
           <tbody>
           <td>
-          <tr><Marquee pauseOnHover="true" pauseOnClick="true">Dashboard</Marquee></tr>
+          <tr ><Marquee className='Marquee' pauseOnHover="true" pauseOnClick="true">Dashboard</Marquee></tr>
           <tr><Dashcenter/></tr>
           <tr><Dashcenter1/></tr>
           </td>
