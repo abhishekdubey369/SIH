@@ -98,7 +98,7 @@ const Graph = () => {
             },
           ],
         }}
-        height={400}
+        height={200}
         width={600}
         options={{
           maintainAspectRatio: true,
