@@ -2,7 +2,7 @@ import React from "react";
 
 export const chart =[
  {
-  "State Name": "Total",
+  StateName: "Total",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -12,7 +12,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 3797774
  },
  {
-  "State Name": "ARUNACHAL PRADESH",
+  StateName: "ARUNACHAL PRADESH",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -22,7 +22,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "ASSAM",
+  StateName: "ASSAM",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -32,7 +32,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 26059
  },
  {
-  "State Name": "BIHAR",
+  StateName: "BIHAR",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -42,7 +42,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 28135
  },
  {
-  "State Name": "CHHATTISGARH",
+  StateName: "CHHATTISGARH",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -52,7 +52,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 365868
  },
  {
-  "State Name": "GOA",
+    StateName: "GOA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -62,7 +62,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "GUJARAT",
+    StateName: "GUJARAT",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -72,7 +72,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 95280
  },
  {
-  "State Name": "HARYANA",
+    StateName: "HARYANA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -82,7 +82,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 6676
  },
  {
-  "State Name": "HIMACHAL PRADESH",
+    StateName: "HIMACHAL PRADESH",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -92,7 +92,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 3504
  },
  {
-  "State Name": "JAMMU AND KASHMIR",
+    StateName: "JAMMU AND KASHMIR",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -102,7 +102,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 1979
  },
  {
-  "State Name": "JHARKHAND",
+    StateName: "JHARKHAND",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -112,7 +112,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 188296
  },
  {
-  "State Name": "KERALA",
+    StateName: "KERALA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -122,7 +122,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 9444
  },
  {
-  "State Name": "MADHYA PRADESH",
+    StateName: "MADHYA PRADESH",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -132,7 +132,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 636338
  },
  {
-  "State Name": "MAHARASHTRA",
+    StateName: "MAHARASHTRA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -142,7 +142,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 145630
  },
  {
-  "State Name": "MANIPUR",
+    StateName: "MANIPUR",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -152,7 +152,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 66
  },
  {
-  "State Name": "MEGHALAYA",
+    StateName: "MEGHALAYA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -162,7 +162,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 260
  },
  {
-  "State Name": "MIZORAM",
+    StateName: "MIZORAM",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -172,7 +172,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 1333
  },
  {
-  "State Name": "NAGALAND",
+    StateName: "NAGALAND",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -182,7 +182,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "ODISHA",
+    StateName: "ODISHA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -192,7 +192,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 431669
  },
  {
-  "State Name": "PUNJAB",
+    StateName: "PUNJAB",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -202,7 +202,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 608
  },
  {
-  "State Name": "RAJASTHAN",
+    StateName: "RAJASTHAN",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -212,7 +212,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 317542
  },
  {
-  "State Name": "SIKKIM",
+    StateName: "SIKKIM",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -222,7 +222,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 372
  },
  {
-  "State Name": "TAMIL NADU",
+    StateName: "TAMIL NADU",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -232,7 +232,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 78680
  },
  {
-  "State Name": "TRIPURA",
+    StateName: "TRIPURA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -242,7 +242,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 3333
  },
  {
-  "State Name": "UTTAR PRADESH",
+    StateName: "UTTAR PRADESH",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -252,7 +252,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 813683
  },
  {
-  "State Name": "UTTARAKHAND",
+    StateName: "UTTARAKHAND",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -262,7 +262,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 6236
  },
  {
-  "State Name": "WEST BENGAL",
+    StateName: "WEST BENGAL",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -272,7 +272,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 589790
  },
  {
-  "State Name": "ANDAMAN AND NICOBAR",
+    StateName: "ANDAMAN AND NICOBAR",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -282,7 +282,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "DADRA AND NAGAR HAVELI",
+    StateName: "DADRA AND NAGAR HAVELI",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -292,7 +292,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 1
  },
  {
-  "State Name": "DAMAN AND DIU",
+    StateName: "DAMAN AND DIU",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -302,7 +302,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 6
  },
  {
-  "State Name": "LAKSHADWEEP",
+    StateName: "LAKSHADWEEP",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -312,7 +312,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "PUDUCHERRY",
+    StateName: "PUDUCHERRY",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -322,7 +322,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "ANDHRA PRADESH",
+    StateName: "ANDHRA PRADESH",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -332,7 +332,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 27347
  },
  {
-  "State Name": "KARNATAKA",
+    StateName: "KARNATAKA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -342,7 +342,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 19639
  },
  {
-  "State Name": "TELANGANA",
+    StateName: "TELANGANA",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,
@@ -352,7 +352,7 @@ export const chart =[
   "Total Houses completed in 2017-2018": 0
  },
  {
-  "State Name": "Total",
+    StateName: "Total",
   "Houses completed for prior to 2012-2013": 0,
   "Houses completed for 2013-2014": 0,
   "Houses completed for 2014-2015": 0,

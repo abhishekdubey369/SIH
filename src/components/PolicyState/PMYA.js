@@ -42,7 +42,7 @@ function PMYA() {
     
     <div>
       <Container>
-        <h1 className='text-center mt-4'>Pradhan Mantri Gram Sadak Yojna</h1>
+        <h1 className='text-center mt-4'>Pradhan Mantri AWAS Yojna</h1>
         <Form>
           <InputGroup className='my-3'>
 
