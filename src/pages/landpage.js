@@ -23,7 +23,10 @@ function LandPage(){
 <Slider
   imageSrc={Mission}
   title={"Mission."}
-  subtitle={"Here mission part will go."}
+  subtitle={<div className='miss'>
+  <li>HAVING A PROPER TRACK OF FUNDS DISBURSED AND RESPECTIVE TRANSACTIONS BY THE BENEFICIARIES.</li>
+  <li>AREA-WISE DISTRIBUTION OF FUNDS TRACKING AND PROVIDING INFOGRAPHICS OF THE SAME.</li>
+</div>}
   flipped={true}
 />
 

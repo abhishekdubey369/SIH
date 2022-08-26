@@ -15,12 +15,20 @@ function links(){
                 <Slider
                 imageSrc={Img}
                 title={"Mission."}
-                subtitle={"Here Mission part will go."}
+                subtitle={<div className='miss'>
+                    <li>HAVING A PROPER TRACK OF FUNDS DISBURSED AND RESPECTIVE TRANSACTIONS BY THE BENEFICIARIES.</li>
+                    <li>AREA-WISE DISTRIBUTION OF FUNDS TRACKING AND PROVIDING INFOGRAPHICS OF THE SAME.</li>
+                </div>}
                 flipped={true} />
                 <Slider
                 imageSrc={ImgO}
                 title={"Vision."}
-                subtitle={"Here Vision part will go."}
+                subtitle={<div className='miss'>
+                <li>DATA PROVIDED BE PRECISE AND WITH NO LIMITATIONS.</li>
+                <li>EASILY ACCESSIBLE AND EASY TO UNDERSTAND.</li>
+                <li>TRANSPARENCY IN TRANSACTIONS </li>
+                <li>DATA NOT TO BE LIMITED TILL STATE/DISTRICT BUT EXTENDED TILL CITY AND VILLAGES</li>
+            </div>}
                 flipped={true} />
                 <Slider
                 imageSrc={Links}

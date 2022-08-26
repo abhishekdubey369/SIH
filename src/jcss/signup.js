@@ -25,13 +25,19 @@ function Signup(){
             </header>
             <div className='signIn'>
             <form onSubmit={onSubmit}>
-
-<input type='text' value={name} onChange={(e)=>{setName(e.target.value)}} name="name"/><br/>
-    <input type='text' value={email} onChange={(e)=>{setEmail(e.target.value)}} name="yojna"/><br/>
-    <input type='text' value={username} onChange={(e)=>{setUsername(e.target.value)}} name="amount"/><br/>
-    <input type='text' value={password} onChange={(e)=>{setPassword(e.target.value)}} name="date"/><br/>
-    <input type='text' value={confirm} onChange={(e)=>{setConfirm(e.target.value)}} name="district"/><br/>
-    <button onClick={save} name="click">SignIn</button>
+                <table className='table'>
+                    <tbody>
+                    <tr><td>Name of organization</td></tr>
+                <tr>
+                    <td><input type='text' value={name} onChange={(e)=>{setName(e.target.value)}} name="name"/></td></tr>
+    <tr><td>Organization email</td></tr><tr><td><input type='text' value={email} onChange={(e)=>{setEmail(e.target.value)}} name="yojna"/></td></tr>
+    <tr><td>USERCODE</td></tr><tr><td><input type='text' value={username} onChange={(e)=>{setUsername(e.target.value)}} name="amount"/></td></tr>
+    <tr><td>Password</td></tr><tr><td><input type='text' value={password} onChange={(e)=>{setPassword(e.target.value)}} name="date"/></td></tr>
+    <tr><td>Confirm Password</td></tr><tr><td><input type='text' value={confirm} onChange={(e)=>{setConfirm(e.target.value)}} name="district"/></td></tr>
+    <tr><td><button onClick={save} name="click">SignUp</button></td>
+                </tr>
+                    </tbody>
+                    </table>
   
 </form>
             </div>

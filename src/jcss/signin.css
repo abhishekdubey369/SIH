@@ -4,3 +4,8 @@
     text-align: center;
     font-family: 'Roboto Slab', serif;
 }
+
+.table{
+    border: 0px black;
+    white-space: 0;
+}
