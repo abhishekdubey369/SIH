@@ -1,8 +1,10 @@
 import { useState } from "react";
 //import './App.css';
+// import {Data} from './'
 
 
 function SearchDistrict() {
+  // console.log(Data.state);
   const states = ['UP', 'Delhi', 'Gujrat']
   const cities = {
     'UP': ['f', 'g', 'l'],

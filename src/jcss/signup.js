@@ -1,29 +1,31 @@
 import './signin.css';
-import React ,{useState,useEffect} from 'react';
-import Navbar from '../component/navbar'
+import React from 'react';
+import Navbar from '../component/navbar';
+import SignUp from '../components/Singup/index';
 
 function Signup(){
 
-    const [name,setName]=useState("");
-    const [email,setEmail]=useState("");
-    const [password,setPassword]=useState("");
-    const [confirm,setConfirm]=useState("");
-    const [username,setUsername]=useState("");
+    // const [name,setName]=useState("");
+    // const [email,setEmail]=useState("");
+    // const [password,setPassword]=useState("");
+    // const [confirm,setConfirm]=useState("");
+    // const [username,setUsername]=useState("");
 
-    function save(){
-        console.warn(name,username,email,password,confirm);
-    }
+    // function save(){
+    //     console.warn(name,username,email,password,confirm);
+    // }
 
-        function onSubmit(e){
-          e.preventDefault();
-        }
+    //     function onSubmit(e){
+    //       e.preventDefault();
+    //     }
 
     return(
         <React.Fragment>
             <header>
             <Navbar/>
             </header>
-            <div className='signIn'>
+            <SignUp/>
+            {/* <div className='signIn'>
             <form onSubmit={onSubmit}>
                 <table className='table'>
                     <tbody>
@@ -40,7 +42,7 @@ function Signup(){
                     </table>
   
 </form>
-            </div>
+            </div> */}
         </React.Fragment>
     );
 
